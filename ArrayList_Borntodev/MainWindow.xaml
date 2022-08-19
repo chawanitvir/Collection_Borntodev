@@ -1,0 +1,17 @@
+﻿<Window x:Class="ArrayList_Borntodev.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArrayList_Borntodev"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="181,204,0,0" VerticalAlignment="Top" Width="110" Height="52" Click="AddButton_click"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Margin="337,204,0,0" VerticalAlignment="Top" Width="110" Height="52" Click="RemoveButton_click"/>
+        <Button Content="Show All" HorizontalAlignment="Left" Margin="492,204,0,0" VerticalAlignment="Top" Width="110" Height="52" Click="ShowAllButton_click"/>
+        <TextBox x:Name="txtKey" HorizontalAlignment="Left" Height="23" Margin="181,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" Text="Key"/>
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="23" Margin="181,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" Text="Value"/>
+
+    </Grid>
+</Window>
