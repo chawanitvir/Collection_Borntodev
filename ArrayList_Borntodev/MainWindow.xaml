@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ArrayList_Borntodev"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="181,204,0,0" VerticalAlignment="Top" Width="110" Height="52" Click="AddButton_click"/>
-        <Button Content="Remove" HorizontalAlignment="Left" Margin="337,204,0,0" VerticalAlignment="Top" Width="110" Height="52" Click="RemoveButton_click"/>
-        <Button Content="Show All" HorizontalAlignment="Left" Margin="492,204,0,0" VerticalAlignment="Top" Width="110" Height="52" Click="ShowAllButton_click"/>
-        <TextBox x:Name="txtKey" HorizontalAlignment="Left" Height="23" Margin="181,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" Text="Key"/>
-        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="23" Margin="181,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="421" Text="Value"/>
+        Title="MainWindow" Height="178.8" Width="510.8">
+    <Grid Margin="0,0,4,-2.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="340,42,0,0" VerticalAlignment="Top" Width="110" Height="70" Click="AddButton_click"/>
+        <TextBox x:Name="txtKey" HorizontalAlignment="Left" Height="23" Margin="47,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" Text="Key"/>
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="23" Margin="47,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" Text="Value"/>
 
     </Grid>
 </Window>
